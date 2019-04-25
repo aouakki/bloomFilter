@@ -5,6 +5,8 @@ import (
 	"github.com/willf/bitset"
 )
 
+// todo allow variable number of hash functions
+
 type bloomFilter struct {
 	size uint
 	bucket *bitset.BitSet
